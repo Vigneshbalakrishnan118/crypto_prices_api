@@ -1,0 +1,10 @@
+production:
+  fetch_crypto_prices:
+    class: FetchCryptoPricesJob
+    schedule: every minute
+
+development:
+  fetch_crypto_prices:
+    class: FetchCryptoPricesJob
+    schedule: every minute
+    
